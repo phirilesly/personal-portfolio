@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EducationComponent } from './education.component';
 import { Route, RouterModule } from '@angular/router';
+import { MatIconModule } from '@angular/material/icon';
 
 const educationRoutes: Route[] = [
   {
@@ -16,6 +17,7 @@ const educationRoutes: Route[] = [
   ],
   imports: [
     CommonModule,
+    MatIconModule,
     RouterModule.forChild(educationRoutes)
 
   ]
