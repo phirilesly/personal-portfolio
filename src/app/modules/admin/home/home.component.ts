@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
 
    var typed = new Typed(".input", {
-      strings:["Software Engineer.","Mobile App Developer.","Back-end Developer."],
+      strings:["Software Engineer.","Backend Developer."],
       typeSpeed: 70,
       backSpeed: 60,
       loop: true
